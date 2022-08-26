@@ -1,0 +1,29 @@
+{
+    "name": "events-from-hash",
+    "version": "1.0.0",
+    "description": "Get web3 events from a transaction hash.",
+    "main": "index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sumicet/events-from-hash.git"
+    },
+    "keywords": [
+        "web3",
+        "transaction",
+        "hash",
+        "events"
+    ],
+    "author": "Sumicet",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sumicet/events-from-hash/issues"
+    },
+    "homepage": "https://github.com/sumicet/events-from-hash#readme",
+    "peerDependencies": {
+        "@ethersproject/abi": "^5.7.0",
+        "wagmi": "^0.6.4"
+    }
+}
