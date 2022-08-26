@@ -3,16 +3,11 @@ import { JsonFragment, Interface } from '@ethersproject/abi';
 import { getContract, GetContractArgs, fetchTransaction, fetchSigner } from 'wagmi/actions';
 
 /**
- * @param eventName
+ * @param name Event name
  * @param hash Transaction hash
  * @param args Filter args
  * @param addressOrName The address of the contract
  * @param contractInterface The contract's ABI
- * @param signer
- *
- * Eg for `event Transfer(address indexed src, address indexed dst, uint val)` you can pass `[src, dst]` as `args`. Notice that only `src` and `dst` are *indexed*, so ONLY they qualify for filtering
- *
- * Read about filter args: https://docs.ethers.io/v5/concepts/events/
  */
 export const getEventsFromHash = async ({
     name,
