@@ -1,4 +1,3 @@
-/* eslint-disable no-promise-executor-return */
 import { JsonFragment, Interface } from '@ethersproject/abi';
 import { getContract, GetContractArgs, fetchTransaction, fetchSigner } from 'wagmi/actions';
 
